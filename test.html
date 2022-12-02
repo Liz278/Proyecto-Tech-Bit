@@ -1,57 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/videojuego 2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/videojuego 2.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./font/flaticon.css">
-    <link rel="stylesheet" href="./css/gaming.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./plugin/whatsapp-chat-support.css">
-    <title>Document</title>
+    <title>Bit TECH</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-light sticky-top ">
-        <div class="container-fluid bg-black">
-            <a class="navbar-brand text-white " href="#"> 🖥️ Bit TECH</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">🕹️ Hogar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">¿Quienes somos?</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Puntos de ventas
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-white bg-black" href="#">Bogotá D.C.</a></li>
-                            <li><a class="dropdown-item text-white bg-black" href="#">Medellin</a></li>
-                            <li><a class="dropdown-item text-white bg-black" href="#">Envios nacionales</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link text-white">NIT 000.000.000-1 ®️</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+    <header id="header">
+        
+        <nav class="navbar navbar-expand-lg bg-light sticky-top ">
+            <div class="container-fluid bg-black">
+                <a class="navbar-brand text-white " href="#"> 🖥️ Bit TECH</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">🕹️ Hogar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">⛓️ ¿Quienes somos?</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                🌎 Puntos de ventas
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-white bg-black" href="#">Bogotá D.C.</a></li>
+                                <li><a class="dropdown-item text-white bg-black" href="#">Medellin</a></li>
+                                <li><a class="dropdown-item text-white bg-black" href="#">✈️ Envios nacionales</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white">NIT 000.000.000-1 ®️</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                    <div class="whatsapp_chat_support wcs_fixed_right" id="button-w">
+                        <div class="wcs_button_label">
+                                Contáctanos
+                            </div>  
+                        <div class="wcs_button wcs_button_circle">
+                            <span class="fa fa-whatsapp"></span>
+                        </div>  
+                        <div class="wcs_popup">
+                            <div class="wcs_popup_close">
+                                <span class="fa fa-close"></span>
+                            </div>
+                            <div class="wcs_popup_header">
+                                <span class="fa fa-whatsapp"></span>
+                                <strong>Servicio al cliente</strong>
+                                
+                                <div class="wcs_popup_header_description">¿Solicitas informaciòn? Chatea con nosotros</div>
+                    
+                            </div>  
+                            <div class="wcs_popup_input" 
+                                data-number="571234567890"
+                                data-availability='{ "monday":"07:00-22:00", "tuesday":"07:00-22:30", "wednesday":"07:00-22:30", "thursday":"07:00-22:30", "friday":"07:00-22:30", "saturday":"09:00-18:30", "sunday":"09:00-22:30" }'>
+                                <input type="text" placeholder="Escribir pregunta!" />
+                                <i class="fa fa-play"></i>
+                            </div>
+                            <div class="wcs_popup_avatar">
+                                <img src="./img/videojuego 2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+    <div class="container mt-4 mb-5  ">
+        <section class="row row-cols-2 row-cols-md-4 g-4 d-flex justify-content-center align-items-center">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:14rem;">
+                    <img src="./img/images (2).jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="./img/WhatsApp Image 2022-11-29 at 9.01.13 PM (1).jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="./img/WhatsApp Image 2022-11-29 at 9.01.12 PM.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col ratio">                
+                <div class=" ratio-16x9 w-100 h-100  ">
+                    <iframe src="https://www.youtube.com/embed/yRrqnkRb4X0" title="YouTube video" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <!--contenido de WhatsApp-->
+    <div class="whatsapp_chat_support wcs_fixed_right" id="button-w">
+        <div class="wcs_button_label">
+                Contáctanos
+            </div>  
+        <div class="wcs_button wcs_button_circle">
+            <span class="fa fa-whatsapp"></span>
+        </div>  
+        <div class="wcs_popup">
+            <div class="wcs_popup_close">
+                <span class="fa fa-close"></span>
+            </div>
+            <div class="wcs_popup_header">
+                <span class="fa fa-whatsapp"></span>
+                <strong>Servicio al cliente</strong>
+                
+                <div class="wcs_popup_header_description">¿Solicitas informaciòn? Chatea con nosotros</div>
+    
+            </div>  
+            <div class="wcs_popup_input" 
+                data-number="571234567890"
+                data-availability='{ "monday":"07:00-22:00", "tuesday":"07:00-22:30", "wednesday":"07:00-22:30", "thursday":"07:00-22:30", "friday":"07:00-22:30", "saturday":"09:00-18:30", "sunday":"09:00-22:30" }'>
+                <input type="text" placeholder="Escribir pregunta!" />
+                <i class="fa fa-play"></i>
+            </div>
+            <div class="wcs_popup_avatar">
+                <img src="./img/videojuego 2.png" alt="">
             </div>
         </div>
-    </nav>
+    </div>
+    <footer class="footer bg-black"  >
+        <p> Bit TECH - Todos los derechos reservados - 2022</p>
+        <ul class="redes">
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="flaticon-001-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="flaticon-011-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com//" target="_blank"><i class="flaticon-008-youtube"></i></a></li>
+               
+        </ul>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/particle-lib.js"></script>
+    <script src="archivo.js"></script>
+    <script src="./plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+    <script src="./plugin/components/moment/moment.min.js"></script>
+    <script src="./plugin/components/moment/moment-timezone-with-data.min.js"></script> <!-- spanish language (es) -->
+    <script src="./plugin/whatsapp-chat-support.js"></script>
+    <script>
+        $('#button-w').whatsappChatSupport({
+             defaultMsg : '  ',
+         });
+     </script>
+     
     
 </body>
+
 </html>
