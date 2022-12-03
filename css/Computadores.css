@@ -1,8 +1,4 @@
-.ratio{
-transform: translateX(450px);
-width: 700px;
-height: 500;
-}
+
 .feet{
     width: 100%;
     height: 100px;
@@ -11,24 +7,14 @@ height: 500;
     align-items: center;
     margin-right: 50px;
 }
-.cuerpo{
-    background-color: rgba(101, 114, 131, 0.842);
-}
-.house{
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
+
+
 .navbar{
     width: 100%;
     height: 100px;
 }
-.img-header{
 
+.img-header{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -108,3 +94,16 @@ height: 500;
     color: #b9b9b9;
     transform: scale(1.1);
 }
+.colorfondo{
+    background-color: #E3F0FF;
+}
+.carta{
+    width: 900px;
+    height: 600px;
+    transform: translateX(150px);
+    
+}
+.ratio{
+    transform: translateX(250px);
+    
+    }
